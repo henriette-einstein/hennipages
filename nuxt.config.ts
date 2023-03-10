@@ -4,6 +4,12 @@ export default defineNuxtConfig({
     baseURL: '/hennipages/'
   },
   modules: [
-    '@nuxtjs/tailwindcss'
-  ]
+    '@nuxtjs/tailwindcss',
+    '@nuxt/content',
+    'nuxt-icon'
+  ],
+  // https://content.nuxtjs.org
+  content: {
+    documentDriven: true
+  }
 })
