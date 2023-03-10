@@ -9,6 +9,7 @@
     "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.4.1",
     "gh-pages": "^5.0.0",
     "nuxt": "^3.2.3"
   }

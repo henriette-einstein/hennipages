@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
   app: {
     baseURL: '/hennipages/'
-  }
+  },
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ]
 })
